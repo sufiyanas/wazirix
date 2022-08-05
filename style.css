@@ -1,0 +1,542 @@
+* {
+
+    margin: 0;
+
+}
+
+body {
+
+    background-color: #1e2433;
+    font-family: "Open Sans", Lato, sans-serif;
+}
+
+/*..................................header..................................................*/
+.header {
+    width: 100%;
+    background-color: #2d3446;
+    height: 72px;
+    display: flex;
+
+}
+
+
+
+.logo {
+    width: 62%;
+    height: 72px;
+    background-color: #2d3446;
+
+
+
+}
+
+.wazirix_logo {
+    height: 10px;
+    font-size: 18px;
+}
+
+.wazirix_logo img {
+    width: 145px;
+    margin-top: 15px;
+    margin-left: 1%;
+}
+
+
+
+.exchange {
+
+    width: 20%;
+
+    height: 72px;
+}
+
+.exchange_text {
+
+    font-style: normal;
+    font-size: 23px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+
+.p2p {
+
+    width: 20%;
+
+    height: 72px;
+
+    float: left;
+
+}
+
+.p2p_text {
+    font-style: normal;
+    font-size: 23px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 45px;
+
+
+}
+
+.login {
+
+    width: 20%;
+
+    height: 72px;
+
+
+}
+
+.login_text {
+
+    font-style: normal;
+    font-size: 23px;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.signup {
+
+    width: 20%;
+    background-color: #eac808;
+
+    height: 72px;
+    ;
+
+
+}
+
+.signup_text {
+
+    font-style: normal;
+    font-size: 23px;
+    color: black;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+/*.................contant div started.......................................................*/
+
+
+.content_1 {
+    padding-top: 5rem;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content_1-left {
+    position: relative;
+}
+
+.content_1-left img {
+    padding-left: 4rem;
+    width: 445.75px;
+    height: 348px;
+}
+.header-elements {
+    position: absolute;
+    width: 802px;
+    top: 50px;
+    left: 250px;
+}
+.header-elements h1 {
+    color: white;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin: 0px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    font-style: italic;
+}
+.header-elements p {
+    color: white;
+    letter-spacing: 0.4px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.header-elements button {
+    background-color: #eac808;
+    max-width: 320px;
+    width: 100%;
+    margin: 24px 0px 0px;
+    padding: 16px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12549019607843137), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12549019607843137);
+}
+.header-elements button span {
+    color: black;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.store img {
+    margin-top: 1.5rem;
+    width: 150px;
+    height: 48.4px;
+    padding-left: 0;
+}
+.store-play {
+    margin-right: 14px;
+}
+.content_1-right {
+    justify-self: end;
+}
+.content_1-right img {
+    margin-top: 36px;
+    width: 777.5px;
+    height: 679.3px;
+}
+/*..................................................content_3..................................*/
+.content_3 {
+    width: 100%;
+    height: 400px;
+    background-color: #1e2433;
+    display: flex;
+
+
+}
+.indro_of_right{
+    background-image: url(wazirix/images/design_content3.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.indro_of_right img{
+    padding-top: 50px;
+    margin: 5000px;
+}
+.indro_wrx_h_content {
+    display: block;
+    color: white;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.13;
+}
+#image-coin{
+
+    width: 300px;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+#content_3_desing_img{
+    padding-left: 100px;
+}
+.sub_intro_of_wrx_content {
+
+    display: block;
+    color: var(--color-text-l0);
+    letter-spacing: 0.4px;
+    padding: 35px 0px 0px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.43;
+}
+.feature_1_text{
+    color: #abb1bf;
+}
+/*...........................................................content_4.......................................*/
+.content_4 {
+
+    width: 100%;
+    height: 300px;
+
+}
+.content_4 h3 {
+    margin:4rem 0 4rem 0;
+    text-transform: uppercase;
+    color:#abb1bf;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+
+
+    }
+
+    100% {
+        transform: translateX(calc(-250px*14));
+    }
+}
+
+.slider {
+
+    height:70px;
+    margin:0 5rem 0 5rem ;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider_track {
+
+    animation: scroll 40s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(250px*14);
+
+}
+.slider_track:hover {
+    animation-play-state: paused;
+  }
+.slide_1 {
+    height: 100px;
+    width: 250px;
+    margin: 0 50px 0 50px;
+}
+
+/*................................content_5.................................*/
+.content_5 {
+
+    width: 100%;
+
+    height: 450px;
+    background-color: #1e2433;
+
+
+}
+
+/*................................content_6..................................................*/
+
+.content_6 {
+
+    width: 100%;
+    height: 100vh;
+    background-color: #1e2433;
+}
+
+.wrx_feature_border {
+    width: 70%;
+    height: 80%;
+    background-color: #1e2433;
+    margin-left: 230px;
+
+
+}
+
+/*.....................here to copy...................*/
+.feature_1 img {
+    size: 50px;
+
+
+
+}
+
+.feature_1_heading {
+
+
+    color: white;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+
+
+
+}
+
+
+.feature_1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.img_for_feature_1 img {
+    width: 100px;
+}
+
+.for_copy,
+.for_copy_2 {
+    text-align: center;
+    padding: 50px;
+}
+
+
+/*........................................content_7.................................*/
+
+.content_7 {
+    margin: 3rem 18rem 7rem 18rem;
+
+}
+
+.content_7 h3 {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.4px;
+    margin-bottom: 5rem;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.08;
+}
+
+.content_members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.memeber {
+    margin: 0 2rem 0 2rem;
+}
+
+.memeber img {
+
+    width: 176px;
+    height: 176px;
+}
+
+.memeber h2 {
+    color: white;
+    letter-spacing: 0.4px;
+    padding: 22px 0px 12px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.memeber h4 {
+    color: white;
+    letter-spacing: 0.4px;
+    padding: 0px 0px 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.memeber p {
+    color: #abb1bf;
+    letter-spacing: 0.4px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.memeber p span {
+    color: rgb(38, 38, 228);
+}
+
+/*....................................content_8.............................*/
+
+
+
+
+
+/*....................................footer_1............................................*/
+
+.footer {
+
+    width: 100%;
+    height: 80%;
+    background-color: #1e2433;
+
+}
+
+.download_wrx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+
+
+}
+
+.main_logo {
+
+    margin-left: 100px;
+
+
+}
+
+.appstores img {
+    width: 200px;
+
+}
+
+.playstore_img {
+    height: 50px;
+}
+
+
+
+
+
+
+/*...................................middle footer..........................*/
+
+.middle_footer {
+
+
+    background-color: #1e2433;
+
+    height: 500px;
+
+
+}
+
+.middle_footer_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    color: #fbfcfe;
+    padding-left: 50px;
+
+}
+
+.middle_footer_items h3 {
+    font-size: 20px;
+    padding-left: 35px;
+    font-family: "Open Sans", Lato, sans-serif;
+    font-weight: 700;
+    line-height: 1.33em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+
+.middle_footer_items li {
+    font-size: 19px;
+    list-style: none;
+    font-family: "Open Sans", Lato, sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+
+
+}
+
+.middle_footer_items li:hover {
+    cursor: pointer;
+
+
+}
+
+.final_footer {
+
+    height: 20px;
+    color: #abb1bf;
+    padding-left: 45%;
+}
